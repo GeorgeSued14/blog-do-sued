@@ -31,7 +31,7 @@ function ListPosts() {
               <figure>
                 <img src={Thumbnail} alt="foto do postador" />
               </figure>
-              Plubished from <a href="/#"> Karoline Karol</a>
+              Plubished from <a href=""> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>
@@ -50,7 +50,7 @@ function ListPosts() {
               <a href="/#">Como cuidar das plantinhas e ser feliz</a>
             </h3>
             <span className="post-user">
-              Plubished from <a href="/#"> Karoline Karol</a>
+              Plubished from <a href=""> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>
@@ -69,7 +69,7 @@ function ListPosts() {
               <a href="/#">Como cuidar das plantinhas e ser feliz</a>
             </h3>
             <span className="post-user">
-              Plubished from <a href="/#"> Karoline Karol</a>
+              Plubished from <a href=""> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>
@@ -87,7 +87,7 @@ function ListPosts() {
               <a href="/#">Como cuidar das plantinhas e ser feliz</a>
             </h3>
             <span className="post-user">
-              Plubished from <a href="/#"> Karoline Karol</a>
+              Plubished from <a href=""> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>
