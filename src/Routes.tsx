@@ -8,8 +8,8 @@ function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/blog" exact component={ListPosts} />
-        <Route path="/blog/create" component={CreatePost} />
+        <Route path="/" exact component={ListPosts} />
+        <Route path="/create" component={CreatePost} />
       </Switch>
     </BrowserRouter>
   );
