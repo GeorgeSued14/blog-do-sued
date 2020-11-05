@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+    color: #3D3D3D;
+    background-color:#f8f8f8;
+}
+
+body, input, button, textarea {
+    font: 400 1rem 'Poppins', sans-serif;
+    outline-style: none;
+}
