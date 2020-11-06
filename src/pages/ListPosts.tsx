@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "../styles/pages/list-posts.css";
-import { FiAlignLeft, FiSearch } from "react-icons/fi";
+import '../styles/pages/list-posts.css';
+import { FiAlignLeft, FiSearch } from 'react-icons/fi';
 
-import Thumbnail from "../images/post1.jpeg";
+import Thumbnail from '../images/post1.jpeg';
 
 function ListPosts() {
   return (
@@ -12,14 +12,16 @@ function ListPosts() {
         <FiAlignLeft className="search-icon" size={36} />
         <input type="text" placeholder="Search your post..." />
         <h1>Blog do Sued</h1>
-        <FiSearch size={24} />
+        <FiSearch className="menu-icon" size={24} />
       </header>
+
+      <h2 className="title-h2">Recents posts</h2>
 
       <section id="posts-container">
         <article
           style={{
             backgroundImage: `url(${Thumbnail})`,
-            backgroundSize: "cover",
+            backgroundSize: 'cover',
           }}
           className="post"
         >
@@ -31,7 +33,8 @@ function ListPosts() {
               <figure>
                 <img src={Thumbnail} alt="foto do postador" />
               </figure>
-              Plubished from <a href=""> Karoline Karol</a>
+              Plubished from
+              <a href="#"> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>
@@ -41,16 +44,16 @@ function ListPosts() {
         <article
           style={{
             backgroundImage: `url(${Thumbnail})`,
-            backgroundSize: "cover",
+            backgroundSize: 'cover',
           }}
           className="post"
         >
           <div className="post-resume">
             <h3>
-              <a href="/#">Como cuidar das plantinhas e ser feliz</a>
+              <a href="">Como cuidar das plantinhas e ser feliz</a>
             </h3>
             <span className="post-user">
-              Plubished from <a href=""> Karoline Karol</a>
+              Plubished from <a href="#"> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>
@@ -60,16 +63,17 @@ function ListPosts() {
         <article
           style={{
             backgroundImage: `url(${Thumbnail})`,
-            backgroundSize: "cover",
+            backgroundSize: 'cover',
           }}
           className="post"
         >
           <div className="post-resume">
             <h3>
-              <a href="/#">Como cuidar das plantinhas e ser feliz</a>
+              <a href="">Como cuidar das plantinhas e ser feliz</a>
             </h3>
             <span className="post-user">
-              Plubished from <a href=""> Karoline Karol</a>
+              Plubished from
+              <a href="#"> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>
@@ -78,16 +82,16 @@ function ListPosts() {
         <article
           style={{
             backgroundImage: `url(${Thumbnail})`,
-            backgroundSize: "cover",
+            backgroundSize: 'cover',
           }}
           className="post"
         >
           <div className="post-resume">
             <h3>
-              <a href="/#">Como cuidar das plantinhas e ser feliz</a>
+              <a href="">Como cuidar das plantinhas e ser feliz</a>
             </h3>
             <span className="post-user">
-              Plubished from <a href=""> Karoline Karol</a>
+              Plubished from <a href="#"> Karoline Karol</a>
             </span>
             <p className="category">Plantas</p>
             <p className="post-date">13 Ago 2020</p>

@@ -8,9 +8,14 @@
 
 }
 
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #3D3D3D;
+}
+
 body {
     color: #3D3D3D;
-    background-color:#f8f8f8;
+    background-color: var(--primary-color);
 }
 
 body, input, button, textarea {

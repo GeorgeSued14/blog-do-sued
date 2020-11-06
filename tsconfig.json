@@ -13,14 +13,16 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "removeComments": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true  ,
+    "isolatedModules": false  ,
     "noEmit": true,
     "jsx": "react"
   },
   "include": [
-    "src"
-  ]
+    "src", "src/gulpfile.ts"
+  ],
 }
